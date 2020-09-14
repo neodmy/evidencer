@@ -52,4 +52,9 @@ module.exports = {
 		],
 		exclude: ['password', 'secret', 'token', 'request.headers.cookie', 'dependencies', 'devDependencies'],
 	},
+	octokit: {
+		privateKey: process.env.GITHUB_APP_PRIVATE_KEY,
+		installationId: process.env.GITHUB_APP_INSTALLATION_ID,
+		id: process.env.GITHUB_APP_ID,
+	},
 };

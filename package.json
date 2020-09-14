@@ -39,6 +39,8 @@
     "supertest": "^4.0.2"
   },
   "dependencies": {
+    "@octokit/auth-app": "^2.4.14",
+    "@octokit/rest": "^18.0.3",
     "body-parser": "^1.19.0",
     "boom": "^7.3.0",
     "bunyan": "^1.8.12",
